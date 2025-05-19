@@ -1,15 +1,17 @@
- * {
+  * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f4f4f4;
   color: #333;
 }
+
 
 header {
   background-color: #0a192f;
@@ -20,6 +22,7 @@ header {
   z-index: 1000;
 }
 
+
 nav {
   display: flex;
   justify-content: space-between;
@@ -27,15 +30,18 @@ nav {
   position: relative;
 }
 
+
 nav h1 {
   font-size: 1.5rem;
 }
+
 
 nav ul {
   display: flex;
   list-style: none;
   gap: 1rem;
 }
+
 
 nav a {
   position: relative;
@@ -58,12 +64,15 @@ nav a:active{
 }
 
 
+
+
 /* Hamburger Icon */
 .menu-toggle {
   display: none;
   flex-direction: column;
   cursor: pointer;
 }
+
 
 .menu-toggle span {
   height: 3px;
@@ -74,18 +83,22 @@ nav a:active{
   transition: all 0.3s ease;
 }
 
+
 /* Animate to X */
 .menu-toggle.open span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
 
+
 .menu-toggle.open span:nth-child(2) {
   opacity: 0;
 }
 
+
 .menu-toggle.open span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
+
 
 /* =======================================Hero */
 .hero-section {
@@ -101,6 +114,7 @@ nav a:active{
   padding: 2rem;
 }
 
+
 .hero-content {
   max-width: 1000px;
   margin: auto;
@@ -108,27 +122,32 @@ nav a:active{
   flex-wrap: wrap;
   align-items: center;
   gap: 40px;
-  
+ 
 }
+
 
 .hero-text {
   flex: 1;
   min-width: 280px;
 }
 
+
 .hero-text h2 {
   font-size: 2.5rem;
 }
+
 
 .hero-text p {
   font-size: 1.1rem;
   line-height: 1.8;
 }
 
+
 .hero-image {
   flex: 1;
   text-align: center;
 }
+
 
 .hero-image img {
   border: 4px double #06b6d4;
@@ -140,9 +159,12 @@ nav a:active{
   transition: transform 0.3s ease;
 }
 
+
 .hero-image img:hover {
   transform: scale(1.05);
 }
+
+
 
 
 #hero h2 {
@@ -196,6 +218,7 @@ nav a:active{
     display: flex;
   }
 
+
   nav ul {
     flex-direction: column;
     display: none;
@@ -208,9 +231,11 @@ nav a:active{
     width: 200px;
   }
 
+
   nav ul.active {
     display: flex;
   }
+
 
   nav ul li {
     margin: 0.5rem 0;
@@ -220,7 +245,7 @@ nav a:active{
   }
   .hero-content{
     padding: 0 30px;
-    
+   
   }
 }
  
@@ -236,6 +261,7 @@ nav a:active{
   font-family: 'Segoe UI', sans-serif;
 }
 
+
 .about-content {
   max-width: 1000px;
   margin: auto;
@@ -245,19 +271,20 @@ nav a:active{
   gap: 40px;
 }
 
+
 .about-text {
   padding-left: 20px;
   flex: 1;
   min-width: 280px;
 }
 
+
 .about-text h2 {
   color: #111827;
   margin: 20px 0;
-  font-size: 30 px;
 }
 .about-text ol{
-  padding-left: 50px;
+  padding-left: 15px;
 }
 .about-text ol li{
     list-style-type: disc;
@@ -290,6 +317,7 @@ nav a:active{
   text-align: center;
 }
 
+
 .about-image img {
   border: 1px solid black;
   padding: 15px;
@@ -298,6 +326,7 @@ nav a:active{
   box-shadow: 0 10px 20px rgba(0,0,0,0.15);
   transition: transform 0.3s ease;
 }
+
 
 .about-image img:hover {
   transform: scale(1.05);
@@ -316,11 +345,13 @@ nav a:active{
    padding: 60px 20px;
 }
 
+
 .skills-section h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
   color: #333;
 }
+
 
 .skills-container {
   display: grid;
@@ -328,6 +359,7 @@ nav a:active{
   gap: 20px;
   padding: 0 20px;
 }
+
 
 .skill-card {
   background: linear-gradient(135deg, #4f46e5, #3b82f6);
@@ -340,6 +372,7 @@ nav a:active{
   box-shadow: 0 8px 16px rgba(0,0,0,0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 
 .skill-card:hover {
   border:1px solid #0a192f;
@@ -360,11 +393,13 @@ nav a:active{
   padding: 60px 20px;
 }
 
+
 .projects-section h2 {
   font-size: 2.5rem;
   margin-bottom: 30px;
   color: #222;
 }
+
 
 .projects-container {
   display: grid;
@@ -372,6 +407,7 @@ nav a:active{
   gap: 25px;
   padding: 0 20px;
 }
+
 
 .project-card {
   text-decoration: none;
@@ -383,33 +419,41 @@ nav a:active{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+
 .project-card:hover {
   border: 1px solid #0a192f;
   transform: translateY(-5px);
   box-shadow: 0 12px 25px rgba(0,0,0,0.2);
 }
 
+
 .ekart {
-  background: linear-gradient(135deg, #06b6d4, #0ea5e9); 
+  background: linear-gradient(135deg, #06b6d4, #0ea5e9);
 }
+
 
 .ecommerce {
   background: linear-gradient(135deg, #10b981, #34d399);  
 }
 
+
 .portfolio {
   background: linear-gradient(135deg, #8b5cf6, #a78bfa);  
 }
+
 
 .project-card h3 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
 
+
 .project-card p {
   font-size: 1rem;
   line-height: 1.5;
 }
+
+
 
 
 /* ===================================================================  Educations */
@@ -420,7 +464,6 @@ nav a:active{
   padding: 30px 0;
 }
 #education {
-  background-color: #f9f9f9;
   padding: 40px 20px;
   border-radius: 12px;
   margin:auto;
@@ -428,11 +471,13 @@ nav a:active{
   font-family: 'Segoe UI', sans-serif;
 }
 
+
 #education h2 {
   font-size: 32px;
   color: #333;
   text-align: center;
 }
+
 
 .education-item {
   margin-bottom: 30px;
@@ -443,11 +488,13 @@ nav a:active{
   border-radius: 8px;
 }
 
+
 .education-item h3 {
   font-size: 20px;
   color: #06b6d4;
   margin-bottom: 5px;
 }
+
 
 .school, .year {
   font-size: 16px;
@@ -455,11 +502,13 @@ nav a:active{
   margin: 2px 0;
 }
 
+
 .description {
   font-size: 14px;
   color: #666;
   margin-top: 8px;
 }
+
 
 /*============================================================================================= Contact  */
   #contact{
@@ -471,15 +520,17 @@ nav a:active{
 .contact-form {
   max-width: 500px;
   padding: 40px 20px;
-  margin:auto;
+  margin:auto ;
   border: 2px solid #ccc;
   border-radius: 10px;
 }
+
 
 .contact-form h2 {
   text-align: center;
   margin-bottom: 20px;
 }
+
 
 .contact-form input,
 .contact-form textarea {
@@ -490,6 +541,7 @@ nav a:active{
   border-radius: 5px;
 }
 
+
 .contact-form button {
   padding: 10px 20px;
   background-color: #0a192f;
@@ -499,15 +551,23 @@ nav a:active{
   cursor: pointer;
 }
 
+
 .contact-form button:hover {
   background-color: #111827;
 }
+
 
 #formResponse {
   margin-top: 15px;
   text-align: center;
   color: green;
 }
+@media (max-width:768px) {
+ .contact-form{
+    margin: 20px;
+  }
+}
+ 
 /*========================================================================== footer */
 footer {
   background-color: #0a192f;
@@ -516,3 +576,4 @@ footer {
   padding: 1rem;
   margin-top: 2rem;
 }
+
