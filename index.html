@@ -14,23 +14,25 @@
 
 
 <body>
+
   <header>
     <nav>
-      <h1>
-        <a href="index.html" id="">
-          <Span style="color:#06b6d4">&lt;</Span>
+      <div class="logo">
+        <a href="index.html" id="logoLink">
+          <span style="color:#06b6d4">&lt;</span>
           <span>Sachin</span>
-          <span  style="color:#06b6d4">/</span>
+          <span style="color:#06b6d4">/</span>
           <span>Kumar</span>
-          <span  style="color:#06b6d4">&gt;</span>
+          <span style="color:#06b6d4">&gt;</span>
         </a>
-      </h1>
+      </div>
       <div class="menu-toggle" id="menu-toggle">
         <span></span>
         <span></span>
         <span></span>
       </div>
-      <ul id="navLinks">
+
+      <ul id="navLinks" class="nav-links">
         <li><a href="#about" class="active">Home</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -46,21 +48,23 @@
       <div class="hero-text">
         <h1>Hi, It's me </h1>
         <h2>Sachin Kumar</h2>
-        <p>I'm web Developer, expert is to create and websites disign,Frontend Developer|Backent Developer </p>
+        <p>I'm a Full-Stack Web Developer with expertise in crafting modern, responsive, and user-friendly
+          websites.Frontend Development | Backend Development </p>
         <ul>
-          <li><a href="https://www.facebook.com/profile.php?id=100078384154182"> <i
-                class="fa-brands fa-square-facebook"></i></i></a></li>
-          <li><a href="https://www.instagram.com/sachu_1020/"><i class="fa-brands fa-square-instagram"></i></a></li>
           <li><a href="https://github.com/sachi786"><i class="fa-brands fa-square-github"></i></a></li>
-          <li><a href="https://github.com/sachi786"><i class="fa-brands fa-linkedin"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/sachin-kumar-2427b1332/"><i class="fa-brands fa-linkedin"></i></a>
+          </li>
           <li><a
               href="https://api.whatsapp.com/send/?phone=8787228805&text=Hello+there%21&type=phone_number&app_absent=0"><i
                 class="fa-brands fa-square-whatsapp"></i></a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=100078384154182"> <i
+                class="fa-brands fa-square-facebook"></i></i></a></li>
+          <li><a href="https://www.instagram.com/__sk.sachin/"><i class="fa-brands fa-square-instagram"></i></a></li>
         </ul>
         <a href="#more-about"><button>More About me</button></a>
       </div>
       <div class="hero-image ">
-        <img src="assert\about1.jpg" alt="About Me">
+        <img src="assert/img.png" alt="About Me">
       </div>
     </div>
   </section>
@@ -74,12 +78,18 @@
     <div class="skills-container">
       <div class="skill-card">HTML</div>
       <div class="skill-card">CSS</div>
-      <div class="skill-card">JavaScript</div>
-      <div class="skill-card">React</div>
       <div class="skill-card">Tailwindcss</div>
       <div class="skill-card">Bootstrap 5</div>
-      <div class="skill-card">Wordpress</div>
-      <div class="skill-card">Git&GitHub</div>
+      <div class="skill-card">JavaScript</div>
+      <div class="skill-card">React.js</div>
+      <div class="skill-card">Core Java + Advanced Java </div>
+      <div class="skill-card">Spring Core</div>
+      <div class="skill-card">Spring Boot</div>
+      <div class="skill-card">Hibernate ORM</div>
+      <div class="skill-card">REST APIs</div>
+      <div class="skill-card">JDBC</div>
+      <div class="skill-card">MySQL</div>
+      <div class="skill-card">XAMPP</div>
     </div>
   </section>
   <!-- =======================================================Projects -->
@@ -90,22 +100,20 @@
   </center>
   <section class="projects-section">
     <div class="projects-container">
-      <a href="#" class="project-card ekart">
-        <h3>eKart</h3>
+      <a href="https://my-ecommerce-nine-weld.vercel.app/" target="_blank" class="project-card ecommerce">
+        <h3>eCommerce Website</h3>
         <p>A mini e-commerce shopping cart using HTML, CSS, JS,ReactJS</p>
       </a>
 
-
-      <div class="project-card ecommerce">
-        <h3>eCommerce Website</h3>
+      <a href="https://furniture-shop-nine-tau.vercel.app/" target="_blank" class="project-card furniture-shop">
+        <h3>Furniture-Shop Website</h3>
         <p>Responsive full-featured eCommerce frontend with product pages and filtering.</p>
-      </div>
+      </a>
 
-
-      <div class="project-card portfolio">
-        <h3>Portfolio Website</h3>
-        <p>Personal portfolio showcasing my skills and projects.</p>
-      </div>
+      <a href="#" class="project-card ekart" target="_blank">
+        <h3>Ekart Website</h3>
+        <p>Ekart is an eCommerce project showcasing my skills and projects.</p>
+      </a>
     </div>
   </section>
 
@@ -118,23 +126,18 @@
           <h2>About Us</h2>
         </center>
         <ol>
-          <li> Hi! I'm a passionate web developer skilled in frontend technologies like HTML, CSS, JavaScript, and
-            React.
-            I
-            love building responsive websites and learning new tools to improve my work. Let's build something amazing
-            together!
+          <li> Hi! I'm a passionate Java Full Stack Developer with strong expertise in frontend technologies like HTML,
+            CSS, JavaScript, and React, as well as backend skills in Java, Spring Boot, RESTful APIs, and databases like
+            MySQL.
           </li>
-          <li>I'm excited to work on new and challenging projects that push the boundaries of technology, and I am eager
-            to
-            contribute my skills and expertise to create innovative software solutions.
+          <li> I love building responsive, high-performance web applications and am always eager to explore new tools
+            and frameworks that can enhance user experience and development efficiency.
           </li>
-          <li>As a team player, I thrive in collaborative environments where I can contribute my skills and knowledge
-            while
-            learning from others. I am highly motivated and passionate about learning new technologies and staying
-            up-to-date with industry trends. I embrace challenges and continuously strive to improve my technical skills
-            to deliver the best possible solutions.
+          <li> I'm excited to take on challenging projects that push the boundaries of technology and allow me to create
+            innovative software solutions. As a team player, I thrive in collaborative environments where I can
+            contribute my skills while learning from others.
           </li>
-          <a href="assert/SachinKumar.pdf" download>
+          <a href="assert/SachinResume.pdf" download>
             <button type="button">Download CV</button>
           </a>
         </ol>
@@ -151,18 +154,29 @@
   </center>
   <section id="education">
     <div class="education-item">
+      <h3>B. Tech in Computer Science </h3>
+      <p class="school">JP Institute of Engineering & Technology, Meerut (AKTU)</p>
+      <p class="year">July 2025 – Pursuing</p>
+      <p class="description">Focused on advanced concepts in Java development, software engineering, full-stack web
+        technologies, and database design.</p>
+    </div>
+
+    <div class="education-item">
       <h3>Polytechnic in Computer Science</h3>
-      <p class="school">Chhatrapati Shahu Ji Maharaj Governments Polytechnic Ambedkar Nagar(Akbarpur)</p>
-      <p class="year">2021 – 2024</p>
-      <p class="description">Relevant Coursework: Java, Data Structures, Algorithms, Web Development, DBMS</p>
+      <p class="school">Chhatrapati Shahuji Maharaj Governments Polytechnic Ambedkar Nagar(Akbarpur)</p>
+      <p class="year"> Sep 2021 - July 2024 - Passed | India</p>
+      <p class="description">Studied core programming fundamentals, object-oriented design, front-end development, and
+        relational database systems.</p>
     </div>
 
 
     <div class="education-item">
       <h3>Inter Mediate(Class 12)</h3>
       <p class="school">Sri Sankar Ji Inter Collage Katwa Gahaji Azamgarh </p>
-      <p class="year">2019 – 2021</p>
-      <p class="description">Stream: PCM</p>
+      <p class="year"> Jun 2020 - July 2021 - Passed | India</p>
+      <p class="description">Completed senior secondary education with Physics, Chemistry, and Mathematics as core
+        subjects.</p>
+      <p class="description">Passed</p>
     </div>
   </section>
   <!-- =======================================================Contact Us -->
@@ -172,7 +186,8 @@
     </p>
   </center>
   <section class="contact-form">
-    <form>
+    <h2>Contact Me</h2>
+    <form action="https://formspree.io/f/xvgqqkkw" method="POST">
       <input type="text" id="name" name="name" placeholder="Your Name" required />
       <input type="email" id="email" name="email" placeholder="Your Email" required />
       <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
@@ -181,8 +196,18 @@
     <p id="formResponse"></p>
   </section>
 
-
   <footer id="footer">
+    <ul>
+      <li><a href="https://github.com/sachi786"><i class="fa-brands fa-square-github"></i></a></li>
+      <li><a href="https://www.linkedin.com/in/sachin-kumar-2427b1332/"><i class="fa-brands fa-linkedin"></i></a>
+      </li>
+      <li><a
+          href="https://api.whatsapp.com/send/?phone=8787228805&text=Hello+there%21&type=phone_number&app_absent=0"><i
+            class="fa-brands fa-square-whatsapp"></i></a></li>
+      <li><a href="https://www.facebook.com/profile.php?id=100078384154182"> <i
+            class="fa-brands fa-square-facebook"></i></i></a></li>
+      <li><a href="https://www.instagram.com/__sk.sachin/"><i class="fa-brands fa-square-instagram"></i></a></li>
+    </ul>
     <p>© 2025 Sachin Kumar | All rights reserved</p>
   </footer>
 
